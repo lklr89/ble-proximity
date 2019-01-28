@@ -1,7 +1,7 @@
 #!/bin/bash
 # run.sh ver1.2
-# AGI Prototype for Anderes Sehen e.V. by Leonhard Keller
-# see iBeacon Scanner by Elliot Larsen https://gist.github.com/elliotlarson/1e637da6613dbe3e777c and Radius Networks
+# lklr89
+# for reference see iBeacon Scanner by Elliot Larsen https://gist.github.com/elliotlarson/1e637da6613dbe3e777c and Radius Networks
 
 ############## PARSE CONFIG FILE ##############
 
@@ -38,7 +38,7 @@ trap halt_hcitool_lescan INT
 hciconfig hci0 reset
 
 
-############# SCAN AND COMPUTE ##############################
+############# SCAN AND ANALYZE ##############################
 
 process_complete_packet() {
   # an example packet with output:
