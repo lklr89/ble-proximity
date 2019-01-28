@@ -1,0 +1,15 @@
+############################################################
+#                                                          #
+#         Konfigurationsdatei für das                      #
+#       Aktive Gebäudeinformationssystem                   #
+#                    v1.2                                  #
+############################################################
+
+# Bitte tragen Sie in der nächsten Zeile die UUID des Beacons ein [zB.: FDA50693-A4E2-4FB1-AFCF-C6EB07647825]            
+FDA50693-A4E2-4FB1-AFCF-C6EB07647825                    
+# Bitte tragen Sie in der nächsten Zeile die gewünschte Entfernung (Signalstärke in dB) ein [zb.: -61]
+-61
+# Bitte tragen Sie in der nächsten Zeile das gewünschte Timeout (in Sekunden) ein [zB.: 10]
+2
+
+

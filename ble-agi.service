@@ -1,0 +1,12 @@
+ [Unit]
+ Description=BLE AGI Service
+ After=multi-user.target
+
+ [Service]
+ Type=idle
+ ExecStart=/bin/sh /etc/ble-agi/run.sh
+ StandardOutput=syslog
+ StandardError=syslog
+ 
+ [Install]
+ WantedBy=multi-user.target

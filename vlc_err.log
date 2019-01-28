@@ -1,0 +1,8 @@
+[002bcce8] pulse audio output error: PulseAudio server connection failure: Connection refused
+[002d80d8] core interface error: no suitable interface module
+[0022c918] core libvlc error: interface "globalhotkeys,none" initialization failed
+[002d8140] dbus interface error: Failed to connect to the D-Bus session daemon: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[002d8140] core interface error: no suitable interface module
+[0022c918] core libvlc error: interface "dbus,none" initialization failed
+[002d8140] dummy interface: using the dummy interface module...
+[002bde18] core playlist: end of playlist, exiting
