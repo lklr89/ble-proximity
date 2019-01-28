@@ -3,9 +3,8 @@
 ############################# USB_TO_FS SYNC #############################################
 # USB Mount is managed by UDEV rule /etc/udev/rules.d/11-media-by-label-auto-mount.rules
 # Once a USB device is plugged in, it mounts it with its name at /media
-# so you can plug in every USB device, which contains an AGI folder for script success
-# better not try to plug in 2 or more devices
-# just reboot system after update
+# you can plug in every USB device, which contains an "AGI" directory
+# it looks for an audio file on the usb stick and replaces its own with it
 ##########################################################################################
 
 log=/etc/ble-agi/usb.log
